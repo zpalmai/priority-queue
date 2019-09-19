@@ -10,7 +10,7 @@ import java.util.Map;
 
 /**
  * Contains a fixed number of queues generated according to the Priority object. JobResults are pushed to a linked list
- * according to their priority (the the order between same priorities remains). The pop mechanism is then controlled by
+ * according to their priority (the order between same priorities remains). The pop mechanism is then controlled by
  * the strategy provided.
  */
 public class PriorityQueue {
